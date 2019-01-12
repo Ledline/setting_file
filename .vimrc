@@ -61,3 +61,9 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+# Backspaceで文字を消せるように
+noremap  
+noremap!  
+noremap 
+noremap! 
