@@ -62,8 +62,9 @@ set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-# Backspaceで文字を消せるように
+
+
+" deleteで文字を消せるように
+set backspace=indent,eol,start
 noremap  
 noremap!  
-noremap 
-noremap! 
